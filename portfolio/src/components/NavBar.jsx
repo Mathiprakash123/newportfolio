@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
-    <div className="bg-black px-80 py-5 text-white flex justify-between">
+    <div className="bg-black text-white flex justify-between">
       {/* header */}
       <div className="flex space-x-3">
         <svg
@@ -10,7 +10,7 @@ const NavBar = () => {
           width="28"
           height="28"
           viewBox="0 0 24 24"
-          className=" fill-current "
+          className=" fill-current cursor-pointer"
         >
           <g
             fill="none"
@@ -23,7 +23,7 @@ const NavBar = () => {
             <path d="M12 22c-3.314 0-6-4.477-6-10S8.686 2 12 2" />
           </g>
         </svg>
-        <h3 className=" pt-1 font-bold">Portfolio</h3>
+        <h3 className=" pt-1 font-bold"><Link to={"/"}>Portfolio</Link></h3> 
       </div>
 
       {/* content */}
@@ -36,7 +36,11 @@ const NavBar = () => {
 
       {/* github button */}
       <div>
-        <a href="https://github.com/Mathiprakash123"><button className=" border border-white rounded-full px-3 mt-1">GitHub</button></a>
+        <a href="https://github.com/Mathiprakash123">
+          <button className=" bg-purple-600 rounded-xl px-5 py-1 hover:bg-purple-700">
+            GitHub
+          </button>
+        </a>
       </div>
     </div>
   );
