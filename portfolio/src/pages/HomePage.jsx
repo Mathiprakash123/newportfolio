@@ -24,7 +24,7 @@ const HomePage = () => {
           my journey through challenging projects and continuous growth. Ready
           to innovate, collaborate, and excel.
         </p>
-        <button className=" bg-purple-600 rounded p-3 mt-5 hover:bg-purple-700">
+        <button className=" bg-purple-600 rounded p-3 mt-10 hover:bg-purple-700">
           Check My Resume
         </button>
       </div>
