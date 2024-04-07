@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
-    <div className="bg-black text-white flex justify-between">
+    <div className="bg-black text-white flex justify-between mt-5">
       {/* header */}
       <div className="flex space-x-3">
         <svg
@@ -23,7 +23,7 @@ const NavBar = () => {
             <path d="M12 22c-3.314 0-6-4.477-6-10S8.686 2 12 2" />
           </g>
         </svg>
-        <h3 className=" pt-1 font-bold">
+        <h3 className=" mt-1 font-bold text-xl">
           <Link to={"/"}>Portfolio</Link>
         </h3>
       </div>
