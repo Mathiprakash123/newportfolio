@@ -10,23 +10,22 @@ const ContactPage = () => {
         </p>
         <form
           action=""
-          className=" space-x-3 bg-gray-800 w-[500px] h-full rounded m-auto pl-5 space-y-6 py-5"
+          className=" space-x-3 bg-gray-800  rounded m-auto p-5 space-y-6  py-10"
         >
-          <legend className="font-semibold text-xl float-start">
-            Email Me
-          </legend>
+            <h1 className=" float-start mb-10 font-semibold ml-3 text-xl">Email Me</h1>
+          
           <input
             type="email"
-            className="block w-[90%]  p-3 rounded bg-transparent border border-purple-500 outline-none"
+            className="block w-[97%] ml-3 p-3 rounded bg-transparent border border-purple-500 outline-none"
             placeholder="Enter Your Email"
           />
           <input
             type="text"
-            className="block w-[90%]  p-3 rounded bg-transparent border border-purple-500 outline-none"
+            className="block w-[97%]  p-3 rounded bg-transparent border border-purple-500 outline-none"
             placeholder="Enter Your Name"
           />
           <textarea
-            className=" block w-[90%] p-3 rounded bg-transparent border border-purple-500 outline-none"
+            className=" block w-[97%] p-3 rounded bg-transparent border border-purple-500 outline-none"
             placeholder="Enter Your Messages"
           />
           <button className="w-[50%]  bg-purple-600 p-3 rounded hover:bg-purple-700">

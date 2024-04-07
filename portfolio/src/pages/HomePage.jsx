@@ -1,6 +1,7 @@
 import React from "react";
 import ContactPage from "./ContactPage";
-
+import AboutPage from './AboutPage';
+import SkillPage from "./SkillPage";
 const HomePage = () => {
   return (
     <div>
@@ -38,6 +39,7 @@ const HomePage = () => {
         />
       </div>
       </div>
+      <SkillPage/>
       <ContactPage/>
     </div>
   );
