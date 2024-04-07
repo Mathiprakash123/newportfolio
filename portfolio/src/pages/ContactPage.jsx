@@ -12,8 +12,10 @@ const ContactPage = () => {
           action=""
           className=" space-x-3 bg-gray-800  rounded m-auto p-5 space-y-6  py-10"
         >
-            <h1 className=" float-start mb-10 font-semibold ml-3 text-xl">Email Me</h1>
-          
+          <h1 className=" float-start mb-10 font-semibold ml-3 text-xl">
+            Email Me
+          </h1>
+
           <input
             type="email"
             className="block w-[97%] ml-3 p-3 rounded bg-transparent border border-purple-500 outline-none"
