@@ -27,7 +27,14 @@ const SkillsPage = () => {
         { name: "C++", level: 80 },
         { name: "Java", level: 70 },
       ],
-    },
+    },{
+      category:"Other",
+      skills:[
+        {
+          name:"Amazon Web Services",level:50
+        }
+      ]
+    }
   ];
 
   return (
